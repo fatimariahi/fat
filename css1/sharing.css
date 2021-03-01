@@ -1,0 +1,18 @@
+/*sharing*/
+*{text-align: center;}    
+   body{
+       background:orange;text-align: center;}
+    .textarea{width:700px;height: 100px;border: 2px solid black;border-radius: 10px;background: #aaa;font-size: 40px;}
+    #div2{margin-top: 5%;}
+    #btns{border: 2px solid black;width: 120px;height: 48px;background: #280f46;color: #fff;font-size: 20px;margin-top: 5px;padding: 10px;}    
+    #btns:hover{background: #c675c2;color:#280f46;font-weight: bold;}
+    #btnr{border: 2px solid black;width: 120px;height: 48px;background: #580d55;color: #fff;font-size: 20px;margin-top: 5px;padding: 10px;} 
+    #btnr:hover{background: #9b76c7;color:#580d55;font-weight: bold;}
+   
+@media only screen and (max-width:800px) {
+.textarea{width: 80%;
+}    
+
+    
+
+

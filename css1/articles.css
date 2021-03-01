@@ -1,0 +1,26 @@
+/*articles*/
+ body{background: orange;text-align: center;}
+        article{width: 700px;height: 90px;background: #aaa;border-radius: 10px;margin: auto;margin-top: 10px; border: 3px groove gray;text-align: justify;word-wrap: break-word;}
+      #article4, #article3, #article2{padding: 5%;padding-top: 10px; font-size: 20px;}
+        #p4{margin: auto;margin-top:5%;margin-bottom: 0px !important;}
+@media only screen and (max-width:1200px) {
+#article2,#article3,#article4{width: 70%;font-size: 18px;}
+}
+@media only screen and (max-width:1000px) {
+#article2,#article3,#article4{font-size: 16px;width: 70%;}
+@media only screen and (max-width:862px) {
+#article2,#article3,#article4{}
+}
+@media only screen and (max-width:800px) {
+#article2,#article3,#article4{font-size: 15px;
+    width: 80%;
+    height: 100px;}
+}
+@media only screen and (max-width:652px) {
+#article2,#article3,#article4{font-size: 13px;
+    width: 80%;
+    height: 120px;}
+}
+@media only screen and (max-width:596px) {
+#article2,#article3,#article4{}
+}
